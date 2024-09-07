@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0ad8db2e-f830-47a0-868f-44de417d5351" name="learn.webmagic">
+        <fileTransfer rootFolder="/var/www/learn/public_html" accessType="SFTP" host="learn.webmagic.be" port="22" sshConfigId="67652f1b-a002-4add-938a-2b98fd479c48" sshConfig="matthias@learn.webmagic.be:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

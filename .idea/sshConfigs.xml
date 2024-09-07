@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="learn.webmagic.be" id="67652f1b-a002-4add-938a-2b98fd479c48" port="22" nameFormat="DESCRIPTIVE" username="matthias" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

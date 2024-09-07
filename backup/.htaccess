@@ -1,0 +1,31 @@
+RewriteEngine On
+
+# Regel voor specifieke cursuscategorieën
+RewriteRule ^courses/web-development/(.*)$ /pages/courses/web-development/$1 [R=301,L]
+RewriteRule ^courses/front-end-development/(.*)$ /pages/courses/front-end-development/$1 [R=301,L]
+RewriteRule ^courses/back-end-development/(.*)$ /pages/courses/back-end-development/$1 [R=301,L]
+RewriteRule ^courses/full-stack-development/(.*)$ /pages/courses/full-stack-development/$1 [R=301,L]
+RewriteRule ^courses/database-management/(.*)$ /pages/courses/database-management/$1 [R=301,L]
+RewriteRule ^courses/devops/(.*)$ /pages/courses/devops/$1 [R=301,L]
+RewriteRule ^courses/mobile-app-development/(.*)$ /pages/courses/mobile-app-development/$1 [R=301,L]
+RewriteRule ^courses/game-development/(.*)$ /pages/courses/game-development/$1 [R=301,L]
+RewriteRule ^courses/data-science/(.*)$ /pages/courses/data-science/$1 [R=301,L]
+RewriteRule ^courses/machine-learning/(.*)$ /pages/courses/machine-learning/$1 [R=301,L]
+RewriteRule ^courses/cybersecurity/(.*)$ /pages/courses/cybersecurity/$1 [R=301,L]
+RewriteRule ^courses/cloud-computing/(.*)$ /pages/courses/cloud-computing/$1 [R=301,L]
+RewriteRule ^courses/api-development/(.*)$ /pages/courses/api-development/$1 [R=301,L]
+RewriteRule ^courses/artificial-intelligence/(.*)$ /pages/courses/artificial-intelligence/$1 [R=301,L]
+RewriteRule ^courses/software-engineering/(.*)$ /pages/courses/software-engineering/$1 [R=301,L]
+RewriteRule ^courses/scripting-languages/(.*)$ /pages/courses/scripting-languages/$1 [R=301,L]
+RewriteRule ^courses/version-control/(.*)$ /pages/courses/version-control/$1 [R=301,L]
+RewriteRule ^courses/ui-ux-design/(.*)$ /pages/courses/ui-ux-design/$1 [R=301,L]
+RewriteRule ^courses/blockchain-development/(.*)$ /pages/courses/blockchain-development/$1 [R=301,L]
+RewriteRule ^courses/iot-development/(.*)$ /pages/courses/iot-development/$1 [R=301,L]
+
+# Gecorrigeerde regel voor "about"
+RewriteRule ^about/(.*)$ /pages/about/index.php [R=301,L] 
+
+# Algemene regel voor alle andere cursuscategorieën
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(web-development|front-end-development|back-end-development|full-stack-development|database-management|devops|mobile-app-development|game-development|data-science|machine-learning|cybersecurity|cloud-computing|api-development|artificial-intelligence|software-engineering|scripting-languages|version-control|ui-ux-design|blockchain-development|iot-development)/(.*)$ /pages/courses/$1/$2 [R=301,L]

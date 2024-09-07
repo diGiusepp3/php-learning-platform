@@ -1,0 +1,27 @@
+# Ignore database files in the admin directory
+/admin/*.db
+/admin/*.sql
+/admin/*.sqlite
+/admin/*.ini
+
+# Ignore ini.inc directory inside includes
+/includes/ini.inc
+/includes/functions.php
+/includes/auth.php
+
+# General ignores (add common files and folders here)
+node_modules/
+vendor/
+.env
+.DS_Store
+*.log
+*.cache
+*.bak
+*.tmp
+*.swp
+
+# Ignore all hidden files and directories
+.*
+
+# ignore encryption files
+/hash
