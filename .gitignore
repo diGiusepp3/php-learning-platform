@@ -4,6 +4,8 @@
 /admin/*.sqlite
 /admin/*.ini
 
+/API/
+
 # Ignore ini.inc directory inside includes
 /includes/ini.inc
 /includes/functions.php
