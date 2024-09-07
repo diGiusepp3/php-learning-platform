@@ -24,6 +24,7 @@ vendor/
 
 # Ignore all hidden files and directories
 .*
+/db.ini
 
 # ignore encryption files
 /hash

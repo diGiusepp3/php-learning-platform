@@ -36,5 +36,27 @@ An educational website offering IT courses for both younger and older audiences.
     <li>/assets: Holds all images, stylesheets, and JavaScript files.</li>
     <br>
     <li> /translations: Contains language files (en.php and nl.php) for English and Dutch translations.</li>
-
 </ul>
+
+# Multilingual Support
+   ```
+   The website supports English and Dutch. Language preferences are managed via cookies, specifically webcrafters_lang. Translation files are structured as:
+   /languages/en.php for english translations and /languages/nl.php for dutch translations. ```
+   ```
+   
+   
+# Cookie Management
+   Cookies are used to manage language settings:
+   <ul>
+      <li>En.php: English translations </li>
+      <li>nl.php: Dutch translations</li>
+   </ul>
+
+# Database 
+Database files are located in
+<ul>
+   <li>/admin/</li>
+   <li>/includes/</li>
+</ul>
+
+## Ensure these files are not tracked by Git for security reasons; they are added to the .gitignore.
