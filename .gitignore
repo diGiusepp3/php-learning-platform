@@ -19,6 +19,8 @@ vendor/
 *.bak
 *.tmp
 *.swp
+*.md
+
 
 # Ignore all hidden files and directories
 .*
