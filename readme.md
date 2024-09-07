@@ -60,3 +60,16 @@ Database files are located in
 </ul>
 
 ## Ensure these files are not tracked by Git for security reasons; they are added to the .gitignore.
+
+# Github config
+   Make sure to set up your .gitignore file properly to exclude sensitive files and directories. Commonly ignored files include:
+   <ul>
+      <li>.env files for environment variables</li>
+      <li>Database config files</li>
+      <li>Logs and temp files</li>
+   </ul>
+
+# License
+   none
+   
+
